@@ -1,0 +1,84 @@
+@font-face {
+  font-family: GloomyThings;
+  src: url(../assets/tipografia/GloomyThings.ttf); }
+
+@font-face {
+  font-family: coutore;
+  src: url(../assets/tipografia/coutore.otf); }
+
+@font-face {
+  header {
+    font-family: NugiaVintage;
+    src: url(../assets/tipografia/NugiaVintage.ttf); } }
+
+.main-index {
+  background-image: url(../assets/img/fondo-main.jpg);
+  background-size: cover;
+  min-height: 500px; }
+  .main-index h1 {
+    font-family: GloomyThings;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 30px;
+    color: aliceblue; }
+  .main-index p {
+    font-family: coutore;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    color: #fafa00; }
+
+.main-recomendaciones {
+  background-image: url(../assets/img/fondo-recomendaciones.jpg);
+  background-size: cover;
+  min-height: 500px;
+  height: 100%; }
+  .main-recomendaciones h6 {
+    font-family: GloomyThings;
+    font-size: 30px; }
+    .main-recomendaciones h6:hover {
+      color: white; }
+
+.main-nosotros {
+  background-image: url(../assets/img/main-nosotros.jpg);
+  height: 100%; }
+  .main-nosotros p {
+    color: black;
+    font-size: 30px;
+    font-family: coutore;
+    border: groove; }
+    .main-nosotros p:hover {
+      font-size: 40px;
+      color: #0656ea; }
+
+.main-formulario {
+  background-image: url(../assets/img/fondo-recomendaciones.jpg);
+  height: 100%;
+  display: flex;
+  align-items: center; }
+  .main-formulario h1 {
+    color: black;
+    font-family: GloomyThings;
+    font-size: 40px; }
+    .main-formulario h1:hover {
+      color: RED; }
+
+.main-contacto {
+  background-image: url(../assets/img/fondo-contacto.jpg);
+  height: 100%;
+  display: flex;
+  align-content: center; }
+  .main-contacto h1 {
+    font-family: NugiaVintage;
+    font-size: 40px;
+    color: black;
+    padding-top: 20px; }
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cfcaca;
+  height: 100%; }

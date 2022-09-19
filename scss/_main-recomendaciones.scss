@@ -1,0 +1,14 @@
+.main-recomendaciones{
+    background-image: url(../assets/img/fondo-recomendaciones.jpg);
+    background-size: cover;
+    min-height: 500px;
+    height: 100%;
+    h6{
+        font-family: GloomyThings;
+        font-size: 30px;
+        &:hover{
+            color: rgb(255, 255, 255);
+        }
+    }
+
+}
